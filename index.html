@@ -3,23 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+ 
     <link rel="preconnect" href="https://fonts.gstatic.com">
      <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheets/style.css"> 
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <link rel="stylesheet" href="/stylesheets/card.css">
     <title>Home</title>
 </head>
 <body>
-    <div class="drawer bg1">
-        <div class="drawer-content">
-            <ul class="drawer-links">
-                <li class="drawer-link"><a href="#" class="no-deco color2">Home</a></li>
-                <li class="drawer-link"><a href="#" class = "color2" style="text-decoration: none;">Blog</a></li>
-                <li class="drawer-link"><a href="#" class="no-deco color2">About Us</a></li>
-            </ul>
-        </div>
-    </div>
     <header class="header bg1">
         <div class="header-wrapper">
             <div><span class="header-title color2 title">Reading in Philippine History</span></div>
@@ -56,62 +50,133 @@
         </div>
     </div>
     </div>
-    <div class="blog-title-wrapper" style="width: 100%; height:5vh; background-color:#FFFF;" >
-    <span class="color1 title font1 blog-title" style="background: white;width:100%; margin: 25px ;">Gallery</span>
+    <div class="blog-title-wrapper" style="width: 100%; height:6vh; background-color:#FFFF; display: none" >
+    <span class="color1 title font1 blog-title" style="background: white;width:100%;">The Constitution</span>
 </div>
-    <div class="post">
-        <div class="post-wrapper">
-            <a class="card card1M no-decor" href="#">   
-            </a>
-            <a class="card card2M no-decor" href="#">
-            </a>
-            <a class="card card3M no-decor" href="#">
-            </a>
-    
+<div class="main" id="cardsss" style="background-color: #FFFF;">
+    <div class="container">
+        <div class="card-image">
+       </div>
+        <div class="card-text">
+            <span class="date">900 to 1565</span>
+            <h2 class="era">Precolonial Era</h2>
+            <p class="text">Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
         </div>
-        <div class="desktop-post">
-            <div class="container">
-                <div class="card-image"></div>
-                <div class="card-text">
-                    <span class="date">4 days ago</span>
-                    <h2>Precolonial Era</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
-                </div>
-                <div class="card-stats">
-                    <a class="Read" href="https://www.facebook.com/">Read More</a>
-                </div>
-            </div>
-            <div class="container">
-                <div class="card-image card2"></div>
-                <div class="card-text card2">
-                    <span class="date">1 week ago</span>
-                    <h2>Spanish Era</h2>
-                    <p>Adipisicing elit. Ducimus, repudiandae corrupti amet temporibus omnis provident illum maxime quod. Lorem ipsum dolor</p>
-                </div>
-                <div class="card-stats card2">
-                    <a class="Read" href="spanish.html">Read More</a>
-                </div>
-            </div>
-            
-            <div class="container">
-                <div class="card-image card3"></div>
-                <div class="card-text card3">
-                    <span class="date">3 week ago</span>
-                    <h2>American Era</h2>
-                    <p>Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
-                </div>
-                <div class="card-stats card3">
-                    <a class="Read" href="american.html ">Read More</a>
-                </div>
-            </div>
+        <div class="card-stats">
+            <a class="Read" href="https://www.facebook.com/">Read More</a>
         </div>
     </div>
     
+    <div class="container">
+        <div class="card-image card2"></div>
+        <div class="card-text card2">
+            <span class="date">1521 to 1898</span>
+            <h2 class="era"> Spanish Era</h2>
+            <p class="text">Adipisicing elit. Ducimus, repudiandae corrupti amet temporibus omnis provident illum maxime quod. Lorem ipsum dolor</p>
+        </div>
+        <div class="card-stats card2">
+            <a class="Read"  id="Spanish">Read More</a>
+        </div>
+    </div>
     
-    <footer class="footer bg1"></footer>
-    <script src="nav.js"></script>
+    <div class="container">
+        <div class="card-image card3"></div>
+        <div class="card-text card3">
+            <span class="date">1898 to 1946</span>
+            <h2 class="era">American Era</h2>
+            <p class="text">Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
+        </div>
+        <div class="card-stats card3">
+            <a class="Read" href="american.html" >Read More</a>
+        </div>
+    </div>
+    
+       
+    <div class="container">
+        <div class="card-image card4"></div>
+        <div class="card-text card4">
+            <span class="date">May 8, 1942 to July 5 1945</span>
+            <h2 class="era">Japanese Era</h2>
+            <p class="text">Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
+        </div>
+        <div class="card-stats card4">
+            <a class="Read" href="japanese.html">Read More</a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="card-image card5"></div>
+        <div class="card-text card5">
+            <span class="date">Today</span>
+            <h2 class="era">Present Era</h2>
+            <p class="text">Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
+        </div>
+        <div class="card-stats card5">
+            <a class="Read" href="present.html">Read More</a>
+        </div>
+    </div>
+  </div>
+<div class="main-containers" id="Spa" style="display: none;" >
+    <div class="containers">
+        <div class="images">
+            <img src="images/spanish.jpg">
+        </div>
+        <div class="info">
+            <div class="date">
+                <span>1521 to 1898</span>
+            </div>
+            <h1 class="Era">Spanish Era</h1>
+            <p class="texts">The Spanish colonization era brought down a myriad of catastrophes upon the Philippines’ Constitutional state. As stated by Rizal, the Filipinos used to be more independent—brimming with culture, just before the Spaniards had colonized us.  
+
+                At this era, the constitution of the Philippines alone could arguably have been considered to be almost non-existent. This was due to the fact that a lot of the Spanish authorities had taken control of the dominance over most of the constitutional areas of the Philippines. 
+                <br/>
+                <h1 class="Era">Most Notable Things that happened during pre Colonial Era:</h1>
+                <ul class="texts">
+                    <li>The evangelization of the Filipinos</li>
+                    <li>The infamous Cavite Mutiny</li>
+                    <li>The execution of the Gomburza</li>
+                    <li>Finally, the birth of the GomBurZa - Filipino's movement for freedom and independence</li>
+                </ul>
+            
+            <a  class="btn" id="spanish_return">Return To HOme</a>
+        </div>
+    </div>
+</div>
+
+<script>
+     let isCardContainerOpen = true;
+    document.getElementById("Spanish").addEventListener("click",function(){
+        var card_container = document.getElementById("cardsss");
+        var container = document.getElementById("Spa");
+       
+
+        if(isCardContainerOpen){
+            container.style.display = "flex"
+            container.style.animation = "open 2s linear"
+            card_container.style.display = "none";
+            isCardContainerOpen = !isCardContainerOpen;
+        }
+    });
+    document.getElementById("spanish_return").addEventListener("click",function(){
+        var spanish_return = document.getElementById("spanish_return");
+        var card_container = document.getElementById("cardsss");
+        var container = document.getElementById("Spa");
+        if(!isCardContainerOpen){
+
+            container.style.display = "none"
+             card_container.style.display ="flex";
+             
+             isCardContainerOpen = !isCardContainerOpen;
+        }
+    });
+</script>
+<footer class="footer bg1">
+<h2 class="color2" style="text-align: center; line-height: 10vh;">Created by BSCS</h2>
+</footer>
 </body>
 <script src="https://kit.fontawesome.com/e3d540c71b.js" crossorigin="anonymous"></script>
 <script src="script.js"></script>
-
+<!--<script src="nav.js"></script>-->
+<footer class="footer bg1"></footer>
 </html>
+    
